@@ -1,0 +1,16 @@
+API_KEY = "YOUR_API_KEY"   # Replace with your real key
+city = "Milan"
+url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric&lang=ru"
+
+response = requests.get(url)
+data = response.json()
+data
+
+if response.status_code == 200:
+    print(f"Погода в {city}:")
+    print("Температура:", data["main"]["temp"], "°C")
+    print("Ощущается как:", data["main"]["feels_like"], "°C")
+    print("Описание:", data["weather"][0]["description"])
+    print("Ветер:", data["wind"]["speed"], "м/с")
+else:
+    print("Ошибка! Проверьте API ключ или название города.")
