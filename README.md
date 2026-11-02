@@ -12,7 +12,7 @@ This project contains three Jupyter notebooks:
    - Scraping book titles from http://books.toscrape.com using `requests` + `BeautifulSoup`.
 
 3. `weather_api.ipynb`  
-   - Getting current weather for a city using OpenWeatherMap API.
+   - Getting current weather for a city using the OpenWeatherMap API.
 
 ## How to run
 
