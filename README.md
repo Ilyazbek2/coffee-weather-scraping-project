@@ -4,7 +4,7 @@ This project contains three Jupyter notebooks:
 
 1. `coffee_analysis.ipynb`  
    - Coffee sales analysis:
-     - Sales by day of week (bar chart)
+     - Sales by day of the week (bar chart)
      - Price distribution by coffee type (boxplot)
      - Weekend vs weekday sales (bar chart)
 
