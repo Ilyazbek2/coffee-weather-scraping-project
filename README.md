@@ -13,10 +13,3 @@ This project contains three Jupyter notebooks:
 
 3. `weather_api.ipynb`  
    - Getting current weather for a city using the OpenWeatherMap API.
-
-## How to run
-
-1. Create and activate a virtual environment (optional).
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
